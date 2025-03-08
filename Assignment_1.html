@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Professional Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full bg-gray-800 py-4 px-6 flex justify-between items-center shadow-md z-10">
+        <h1 class="text-2xl font-extrabold text-blue-400">Your Portfolio</h1>
+        <ul class="flex space-x-6">
+            <li><a href="#about" class="hover:text-blue-400">About</a></li>
+            <li><a href="#skills" class="hover:text-blue-400">Skills</a></li>
+            <li><a href="#projects" class="hover:text-blue-400">Projects</a></li>
+            <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-r from-indigo-600 to-purple-600">
+        <h2 class="text-5xl font-extrabold">Hello, I'm <span class="text-yellow-300">Khushi Patel</span></h2>
+        <p class="text-xl mt-4 max-w-2xl">Creating sleek, functional, and engaging web applications.</p>
+       
+        <a href="#projects" class="mt-6 px-8 py-3 bg-yellow-300 text-gray-900 rounded-lg hover:bg-yellow-400">View My Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="py-20 text-center container mx-auto px-6">
+        <h2 class="text-4xl font-semibold text-blue-400">About Me</h2>
+        <p class="mt-6 text-lg text-white-300 max-w-3xl mx-auto">A passionate web developer specializing in modern UI/UX design, ensuring a seamless and engaging experience.</p>
+        <p class="text-xl text-gray-300 -100 max-w-3xl mx-auto">Hi, I'm Khushi Patel, a passionate web developer dedicated to crafting visually appealing and highly functional websites. My expertise lies in front-end development, working with HTML, CSS, JavaScript, and React, while also expanding my knowledge in back-end technologies.
+
+            <p class="text-xl text-gray-300 -700 max-w-3xl mx-auto">  I believe in writing clean, efficient, and maintainable code, ensuring that every project is scalable, user-friendly, and high-performing. My goal is to create seamless and engaging digital experiences that work flawlessly across all devices. I enjoy both the creative and technical aspects of development—from designing elegant interfaces to optimizing performance for a smooth user experience.</p>
+            
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">   I'm constantly exploring new technologies and industry trends to enhance my skills and stay ahead in the ever-evolving world of web development. Whether you're envisioning a simple, sleek website or a dynamic, feature-rich web application, I'm excited to bring your ideas to life.</p>
+            
+    
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-800 text-center">
+        <h2 class="text-4xl font-semibold text-yellow-300">Skills & Technologies</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-8 max-w-4xl mx-auto">
+            <div class="glassmorphism">HTML & CSS</div>
+            <div class="glassmorphism">JavaScript</div>
+            <div class="glassmorphism">React</div>
+            <div class="glassmorphism">Node.js</div>
+            <div class="glassmorphism">Tailwind CSS</div>
+            <div class="glassmorphism">MongoDB</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-20 text-center container mx-auto px-6">
+        <h2 class="text-4xl font-semibold text-blue-400">Projects</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+            <div class="glassmorphism shadow-lg hover:scale-105 transition">
+                <h3 class="text-xl font-bold">Modern Portfolio</h3>
+                <p class="text-gray-300">A sleek portfolio to showcase my work professionally.</p>
+            </div>
+            <div class="glassmorphism shadow-lg hover:scale-105 transition">
+                <h3 class="text-xl font-bold">Advanced Task Manager</h3>
+                <p class="text-gray-300">An intuitive app to manage daily tasks efficiently.</p>
+            </div>
+            <div class="glassmorphism shadow-lg hover:scale-105 transition">
+                <h3 class="text-xl font-bold">E-commerce Platform</h3>
+                <p class="text-gray-300">A robust and scalable online shopping experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 text-center container mx-auto px-6">
+        <h2 class="text-4xl font-semibold text-yellow-300">Contact Me</h2>
+        <p class="text-lg text-gray-300 mt-4">Let’s collaborate and build something amazing.</p>
+        <a href="mailto:khushipatel0000@gmail.com" class="mt-6 px-8 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 inline-block">Get in Touch</a>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-center py-6 mt-8">
+        <p>&copy; 2025 Khushi Patel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
